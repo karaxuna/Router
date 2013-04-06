@@ -24,6 +24,14 @@ Optional rooting parts:
 
 Suceeds in both cases: `'/home/index?me=kaxa&shen=arvici'` and `'/home/index'`
 
+In case if bypassed all routes:
+
+    var router = new Router({
+        bypassedCallback: function(){
+            console.log('Bypassed all routes');
+        }
+    });
+
 --
 
 Default options:
