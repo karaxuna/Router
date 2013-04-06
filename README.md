@@ -24,3 +24,15 @@ Optional rooting parts:
 
 Suceeds in both cases: `'/home/index?me=kaxa&shen=arvici'` and `'/home/index'`
 
+--
+
+Default options:
+=
+
+    searchVariableName: 'search',
+    leftClosure: '{',
+    rightClosure: '}',
+    optionalLeftClosure: '[',
+    optionalRightClosure: ']',
+    bypassedCallback: function () { console.log('bypassed all rootes'); }
+
