@@ -43,4 +43,11 @@ Default options:
     optionalLeftClosure: '[',
     optionalRightClosure: ']',
     bypassedCallback: function () { console.log('bypassed all rootes'); }
+    
+--
+
+**ToDos**:
+
+1. Add functionality to option- `searchVariableName` (converts search part of url into object)
+2. Enable closures with multiple symbols
 
