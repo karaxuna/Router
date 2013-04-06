@@ -1,4 +1,4 @@
-Router
-======
+Router - Simple javascript routing system
 
-Simple javascript routing system
+
+
