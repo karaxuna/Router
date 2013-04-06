@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<script type="text/javascript" src="./router.js"></script>
+		<script type="text/javascript">
+			window.addEventListener('load', function(){
+				var url = '/home/index?me=kaxa&shen=arvici';
+
+				var router = new Router();
+				router.addRoute('default', '/{controller}/{action}?{search}', function(o){ console.log('default root succeded. result: ' + JSON.stringify(o)); });
+				router.addRoute('optional', '/{controller}/{action}[?{search}]', function(o){ console.log('optional root succeded. result: ' + JSON.stringify(o)); });
+				router.parse(url);
+			});
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
