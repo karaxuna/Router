@@ -34,7 +34,7 @@ In case if bypassed all routes:
 
 --
 
-Default options:
+Default options
 =
 
     searchVariableName: 'search',
@@ -46,7 +46,7 @@ Default options:
     
 --
 
-**ToDos**:
+**TODOs**:
 
 1. Add functionality to option- `searchVariableName` (converts search part of url into object)
 2. Enable closures with multiple symbols
