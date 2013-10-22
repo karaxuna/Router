@@ -7,7 +7,7 @@ Example
 Adding route and parsing:
 
     var router = new Router();
-    router.addRoute('default', '/{controller}/{action}?{search}', function(o){ JSON.stringify(o); });
+    router.addRoute('default', '/{controller}/{action}?{search}', function(o){ console.log(JSON.stringify(o)); });
     router.parse('/home/index?me=kaxa&shen=arvici');
     
 Output:
