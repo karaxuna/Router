@@ -143,7 +143,7 @@
 
                 if (typeof b[prop] === 'object' && !isInstanceOfExcluded) {
                     a[prop] = a[prop] !== undefined ? a[prop] : {};
-                    extend(a[prop], b[prop]);
+                    _extend(a[prop], b[prop], excludeInstances);
                 } else
                     a[prop] = b[prop];
             }
